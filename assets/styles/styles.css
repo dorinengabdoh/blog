@@ -31,10 +31,7 @@ h1 {
 .unknown {
   color: #ffffffd5;
   background-color: #000;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding: 5px;
 }
 
 .container {
@@ -49,8 +46,6 @@ h1 {
   width: 60%;
   margin-left: 15rem;
   margin-top: 50px;
-  /* margin-right: 200px; */
-  /* padding-top: 20rem; */
 }
 
 .two {
@@ -60,7 +55,7 @@ h1 {
   padding: 0;
   padding-left: 20px;
   padding-bottom: 20px;
- padding-top: 10px;
+  padding-top: 10px;
 }
 
 .three {
@@ -92,10 +87,7 @@ span {
 .gras {
   color: #ffffffd5;
   background-color: black;
-  padding-left: 3px;
-  padding-right: 3px;
-  padding-bottom: 1px;
-  padding-top: 1px;
+  padding-right: 3px 1px 1px 3px;
   border-radius: 50%;
 }
 
@@ -109,8 +101,7 @@ span {
 }
 
 .titre {
-  padding-top: 10px;
-  padding-left: 20px;
+  padding-top: 10px 0 20px;
 }
 
 button { 
