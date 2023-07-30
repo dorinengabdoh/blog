@@ -1,55 +1,63 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
- body{
+
+body {
   background-color: #f0eaea;
-} 
-.block2{
-   width: 30%;
-   padding-top: 3.2rem;
-
-
 }
-h1{
+
+.block2 {
+  width: 30%;
+  padding-top: 3.2rem;
+}
+
+h1 {
   text-align: center;
   padding-top: 50px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/* .block1{
+
+/* .block1 {
   padding-left: 100px;
 } */
-.comment{
+
+.comment {
   font-size:larger;
 }
-.items{
+
+.items {
   text-align: center;
   padding-top: 50px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.unknown{
-  color: rgba(255, 255, 255, 0.837);
-  background-color: black;
+
+.unknown {
+  color: #ffffffd5;
+  background-color: #000000;
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 5px;
   padding-top: 5px;
 }
- .container{
+
+.container {
   display: flex;
-} 
-.one{
+}
+
+.one {
   display: flex;
   flex-direction: column;
-  background-color: white;
-  border: solid 1px white;
+  background-color: #ffffff;
+  border: solid 1px #ffffff;
   width: 60%;
   margin-left: 15rem;
   margin-top: 50px;
   /* margin-right: 200px; */
   /* padding-top: 20rem; */
 }
-.two{
+
+.two {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -58,30 +66,35 @@ h1{
   padding-bottom: 20px;
  padding-top: 10px;
 }
-.three{
+
+.three {
   display: flex;
   margin-bottom: 20px;
   padding-right: 20px;
   gap:2rem;
   padding-top: 1px;
 }
-h4{
+
+h4 {
   padding-top: 50px;
   padding-left: 20px;
 }
-h2{
+
+h2 {
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 10px;
  justify-content: center;
 }
-span{
+
+span {
   padding-left: 20px;
   text-align: left;
   direction: ltr;
 }
-.gras{
-  color: rgba(255, 255, 255, 0.837);
+
+.gras {
+  color: #ffffffd5;
   background-color: black;
   padding-left: 3px;
   padding-right: 3px;
@@ -89,36 +102,41 @@ span{
   padding-top: 1px;
   border-radius: 50%;
 }
-.gra{
-  color: rgba(255, 255, 255, 0.837);
-  background-color: black;
+
+.gra {
+  color: #ffffffd5;
+  background-color: #000000;
   padding-left: 3px;
   padding-right: 3px;
   padding-bottom: 1px;
   padding-top: 1px;
 }
-.titre{
+
+.titre {
   padding-top: 10px;
   padding-left: 20px;
 }
-button{ 
-  justify-content: center;
-  
+
+button { 
+  justify-content: center; 
 }
 
 .names {
   width: 23.5rem;
-  background-color: aliceblue;
+  background-color: #f0f8ff;
   /* margin-left: 65%; */
   /* padding-bottom: 50%; */
-}   
-.name{
+}
+
+.name {
   width: 99%;
-}    
-.letf{
+}
+
+.letf {
   padding-left: 10px;
 }
-.droit11{
+
+.droit11 {
   display: flex;
   gap: 1rem;
   border: solid 1px #cccccc;
@@ -126,60 +144,64 @@ button{
   padding-bottom: 10px;
   padding-left: 10px;
 }
-.droit11:hover{
+
+.droit11:hover {
  background-color: #cccccc;
 }
-.doit1{
+
+.doit1 {
   display: flex;
   flex-direction: column;
   width: 112%;
-  background-color: white;
+  background-color: #ffffff;
   margin-top: 30px;
   padding-bottom: 10%;
-
-
 }
-.entete{
+
+.entete {
   background-color: #f1f1f1;
   height: 30px;
   font-size: 1.5rem;
   padding-left: 9px;
   padding-top: 9px;
 }
-.droit3{
+
+.droit3 {
   display: flex;
   gap: 1rem;
   padding-top: 13px;
- padding-left: 9px;
- background-color: white;
-
-
+  padding-left: 9px;
+  background-color: #ffffff;
 }
-.droit2{
+
+.droit2 {
   display: flex;
   gap: 1rem;
   padding-top: 15px;
   padding-left: 9px;
-  background-color: white;
-
+  background-color: #ffffff;
 }
-.alone{
+
+.alone {
   padding-top: 13px;
   padding-left: 9px;
 }
-.divise{
-  background-color: white;
+
+.divise {
+  background-color: #ffffff;
 }
-.block{
+
+.block {
  width: 114%;
  height: 20%;
  padding-bottom: 30px;
  margin-top: 30px;
- background-color: white;
+ background-color: #ffffff;
 }
-.lone{
-  background-color: black;
-  color: white;
+
+.lone {
+  background-color: #000000;
+  color: #ffffff;
 }
 
 /* .container{
@@ -187,7 +209,3 @@ button{
   height: 100%;
   width: 100%;
 } */
-
-
-
-
