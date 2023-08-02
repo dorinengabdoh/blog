@@ -1,4 +1,5 @@
 @import url('"https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"');
+
 * {
   padding: 0;
   margin: 0;
@@ -232,8 +233,7 @@ h6 {
 
 .but:hover {
   color: #818181;
-  background-color: #444444;
-
+  background-color: #444;
 }
 
 .buts {
@@ -242,8 +242,6 @@ h6 {
   width: 90px;
   background-color: #000;
   color: white;
-
-
 }
 
 .buts:hover {
@@ -261,7 +259,7 @@ h6 {
 }
 
 .en {
-  color: rgba(255, 255, 255, 0.717)
+  color: #ffffffb7
 }
 
 .titre {
@@ -297,5 +295,6 @@ h6 {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-   }
+  }
 }
+
