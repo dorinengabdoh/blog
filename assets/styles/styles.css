@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
+  font-family: Raleway, sans-serif;
+  /* border: 1px solid red; */
 }
 
 body {
@@ -10,13 +14,11 @@ body {
 .block2 {
   width: 30%;
   padding-top: 3.2rem;
-  /* margin-left: -20%; */
 }
 
 h1 {
   text-align: center;
   padding-top: 50px;
-  font-family: "'Gill Sans'", "'Gill Sans MT'", Calibri, "'Trebuchet MS'", sans-serif;
 }
 
 .comment {
@@ -26,7 +28,6 @@ h1 {
 .items {
   text-align: center;
   padding-top: 50px;
-  font-family: "'Gill Sans'", "'Gill Sans MT'", Calibri, "'Trebuchet MS'", sans-serif;
 }
 
 .unknown {
@@ -35,12 +36,18 @@ h1 {
   padding: 5px;
 }
 
+.block1 {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .container {
   display: flex;
   justify-content: center;
-  margin-left: 20%;
-  margin-right: 20%;
-  gap: 3rem;
+  padding: 0 200px;
+  gap: 2rem;
 }
 
 .one {
@@ -49,7 +56,8 @@ h1 {
   background-color: #fff;
   border: solid 1px #fff;
   /* width: 60%; */
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  box-shadow: 0 4px 8px 0 #0003;
 }
 
 .two {
@@ -60,6 +68,10 @@ h1 {
   padding-left: 20px;
   padding-bottom: 20px;
   padding-top: 10px;
+}
+
+.fa-solid {
+  font-size: 10px;
 }
 
 .three {
@@ -91,14 +103,14 @@ span {
 .gras {
   color: #ffffffd5;
   background-color: black;
-  padding-right: 3px 1px 1px 2px;
+  padding: 5px 10px;
   border-radius: 50%;
 }
 
 .gra {
   color: #ffffffd5;
   background-color: #000;
-  padding-top: 3px 3px 4px 3px;
+  padding: 3px 4px;
 }
 
 .titre {
@@ -111,8 +123,9 @@ button {
 
 .names {
   width: 23.5rem;
-  background-color: #f0f8ff;
-  padding-bottom:  20px;
+  background-color: #ffff;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 #0003;
 }
 
 .name {
@@ -143,6 +156,7 @@ button {
   background-color: #fff;
   margin-top: 30px;
   padding-bottom: 10%;
+  box-shadow: 1px 4px 8px 0 #0003;
 }
 
 .entete {
@@ -161,12 +175,19 @@ button {
   background-color: #fff;
 }
 
+button {
+  padding: 1px;
+  border: none;
+}
+
 .droit2 {
   display: flex;
   gap: 0.5rem;
   padding-top: 15px;
   padding-left: 9px;
   background-color: #fff;
+  border: solid 0 none;
+
 }
 
 .alone {
@@ -184,6 +205,7 @@ button {
   padding-bottom: 30px;
   margin-top: 30px;
   background-color: #fff;
+  box-shadow: 0 4px 8px 0 #0003;
 }
 
 .lone {
@@ -201,9 +223,10 @@ button {
 .lasts {
   padding-bottom: 20px;
 }
-h6{
-   font-size: 18px;
-   color: rgba(255, 255, 255, 0.779);
+
+h6 {
+  font-size: 18px;
+  color: #ffffffc7;
 }
 
 
@@ -211,13 +234,15 @@ h6{
   height: 50px;
   width: 90px;
   font-size: 16px;
-  background-color: #616161;
+  background-color: #403e3e;
   color: #ccc;
+  cursor: not-allowed;
 }
 
 .but:hover {
-  color: #616161;
-  background-color: #ccc;
+  color: #818181;
+  background-color: #444444;
+
 }
 
 .buts {
@@ -226,26 +251,60 @@ h6{
   width: 90px;
   background-color: #000;
   color: white;
+
+
 }
+
 .buts:hover {
-  background-color:white;
+  background-color: white;
   color: #000;
 }
 
-.MORE{
+.MORE {
   padding-inline: 10px;
 }
 
-.MORE:hover{
+.MORE:hover {
   color: #616161ca;
   color: black;
 }
 
-.en{
+.en {
   color: rgba(255, 255, 255, 0.717)
 }
 
 .titre {
   padding-left: 20px;
   padding-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .block1 {
+    padding: 40px 0;
+
+  }
+
+  .one,
+  .names,
+  .doit1,
+  .block {
+    width: 93%;
+    margin: 0 auto;
+  }
+
+  .block2 {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+   }
 }
