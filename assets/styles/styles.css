@@ -112,6 +112,8 @@ span {
 
 .titre {
   padding-top: 10px 0 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
 }
 
 .names {
@@ -249,22 +251,16 @@ h6 {
   color: #000;
 }
 
-.MORE {
+.more {
   padding-inline: 10px;
 }
 
-.MORE:hover {
-  color: #616161ca;
+.more:hover {
   color: black;
 }
 
 .en {
   color: #ffffffb7
-}
-
-.titre {
-  padding-left: 20px;
-  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -278,7 +274,6 @@ h6 {
 
   .block1 {
     padding: 40px 0;
-
   }
 
   .one,
@@ -297,4 +292,3 @@ h6 {
     gap: 1.5rem;
   }
 }
-
