@@ -297,7 +297,6 @@ h6 {
   main {
     margin: 0 auto;
   }
-  
 }
 
 @media screen and (width: 1024px) {
@@ -315,15 +314,13 @@ h6 {
     width: 23.5rem;
   }
 
-  @media screen and (width: 375){
+  @media screen and (width: 375) {
     .block1 {
       margin: 0 auto;
     }
-    
+
     .names {
       width: 23rem;
     }
-    
   }
 }
-
