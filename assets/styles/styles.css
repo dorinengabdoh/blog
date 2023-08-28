@@ -1,0 +1,326 @@
+@import url('"https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Raleway, sans-serif;
+}
+
+body {
+  background-color: #f0eaea;
+}
+
+.block2 {
+  padding-top: 3.2rem;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.comment {
+  font-size: larger;
+}
+
+.items {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.unknown {
+  color: #ffffffd5;
+  background-color: #000;
+  padding: 5px;
+}
+
+.block1 {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 0 200px;
+  gap: 2rem;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: solid 1px #fff;
+  box-shadow: 0 4px 8px 0 #0003;
+}
+
+.two {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.fa-solid {
+  font-size: 10px;
+}
+
+.three {
+  display: flex;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  gap: 2rem;
+  padding-top: 1px;
+}
+
+h4 {
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+h2 {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+
+span {
+  padding-left: 20px;
+  text-align: left;
+  direction: ltr;
+}
+
+.gras {
+  color: #ffffffd5;
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+.gra {
+  color: #ffffffd5;
+  background-color: #000;
+  padding: 3px 4px;
+}
+
+.titre {
+  padding-top: 10px 0 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.names {
+  width: 23.5rem;
+  background-color: #ffff;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 #0003;
+}
+
+.name {
+  width: 99.5%;
+}
+
+.left {
+  padding-inline: 10px;
+}
+
+.droit11 {
+  display: flex;
+  gap: 1rem;
+  border: solid 1px #ccc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.droit11:hover {
+  background-color: #ccc;
+}
+
+.doit1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-top: 30px;
+  padding-bottom: 10%;
+  box-shadow: 1px 4px 8px 0 #0003;
+}
+
+.entete {
+  background-color: #f1f1f1;
+  height: 30px;
+  font-size: 1.5rem;
+  padding-left: 9px;
+  padding-top: 9px;
+}
+
+.droit3 {
+  display: flex;
+  gap: 0.5rem;
+  padding-top: 13px;
+  padding-left: 9px;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 1px;
+  border: none;
+  justify-content: center;
+}
+
+.droit2 {
+  display: flex;
+  gap: 0.5rem;
+  background-color: white;
+  border: solid 0 none;
+  padding: 15px 0 0 9px;
+  flex-wrap: wrap;
+}
+
+.alone {
+  padding-top: 13px;
+  padding-left: 9px;
+}
+
+.divise {
+  background-color: #fff;
+}
+
+.block {
+  width: 23.5rem;
+  height: 13%;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 #0003;
+}
+
+.lone {
+  background-color: #000;
+  color: #fff;
+}
+
+.last {
+  padding: 3%;
+  background-color: #616161;
+  margin-top: 30px;
+  gap: 23px;
+  width: 94%;
+  min-width: 10%;
+}
+
+.lasts {
+  padding-bottom: 20px;
+}
+
+h6 {
+  font-size: 18px;
+  color: #ffffffc7;
+}
+
+.but {
+  height: 50px;
+  width: 90px;
+  font-size: 16px;
+  background-color: #403e3e;
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.but:hover {
+  color: #818181;
+  background-color: #444;
+}
+
+.buts {
+  height: 50px;
+  font-size: 16px;
+  width: 90px;
+  background-color: #000;
+  color: white;
+}
+
+.buts:hover {
+  background-color: white;
+  color: #000;
+}
+
+.more {
+  padding-inline: 10px;
+}
+
+.more:hover {
+  color: black;
+}
+
+.en {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .block1 {
+    padding: 40px 0;
+  }
+
+  .one,
+  .names,
+  .doit1,
+  .block {
+    width: 93%;
+    margin: 0 auto;
+  }
+
+  .block2 {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  main {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (width: 1024px) {
+  main {
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .container {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .block2 {
+    width: 23.5rem;
+  }
+
+  @media screen and (width: 375) {
+    .block1 {
+      margin: 0 auto;
+    }
+
+    .names {
+      width: 23rem;
+    }
+  }
+}
